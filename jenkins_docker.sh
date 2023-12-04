@@ -12,4 +12,4 @@ sudo docker run \
   --volume jenkins-docker-certs:/certs/client:ro \
   --volume /var/www:/deploy \
   --env JAVA_OPTS="-Dhudson.plugins.git.GitSCM.ALLOW_LOCAL_CHECKOUT=true" \
-  myjenkins-blueocean:2.401.2-1
+  myjenkins-blueocean:latest
